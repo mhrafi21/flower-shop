@@ -1,0 +1,240 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+   font-family: 'Roboto', sans-serif;
+}
+.container{
+    width:1200px;
+    margin:0 auto;
+    padding:0px 30px;
+}
+section{
+    display: block;
+}
+.header{
+background-color: #f3d4db;
+}
+.btn-sign-up,
+.btn-subscribe,
+.btn-shop{
+    padding:11px 25px;
+    background-color: #E55473;
+    color:#fff;
+    border:none;
+    border-radius: 4px;
+}
+h2{
+   text-align: center;
+}
+p{
+     color:#9c9999;
+    font-size: 14px;
+}
+.header .row .col{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.header .row .col .header-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap:30px;
+    width:50%;
+}
+.header .row .col .header-left h1{
+    color:#272727;
+    font-size: 50px;
+}
+.header .row .col .header-left p{
+    color:#9c9999;
+    font-size: 14px;
+}
+.header .row .col .header-right{
+    height: 100%;
+}
+.header .row .col .header-right img{
+    display: flex;
+    align-items: end;
+    margin-top:80px;
+    width: 400px;
+}
+
+/* featured section */
+.featured-sec{
+    padding:50px 0px;
+  
+}
+.featured-sec p{
+    text-align: center;
+    width: 400px;
+    margin:0 auto;
+    margin-top:10px;
+}
+.featured-sec .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    margin-top:60px;
+}
+.featured-sec .row .col{
+  width: 33.3%;
+  max-height:400px;
+  align-items: end;
+  justify-content: center;
+  align-content: center;
+}
+.featured-sec .row .col small{
+    text-align: center;
+    display: block;
+    text-decoration: underline;
+    margin-top:10px;
+}
+.featured-sec .row .col .img{
+    background-color: #f3d4db;
+    border-top-left-radius: 42%;
+    border-top-right-radius: 42%;
+    height: 400px;
+    padding:30px 30px 0px 30px;
+}
+.featured-sec .row .col .img2{
+    background-color: #dfedee;
+}
+.featured-sec .row .col .img3{
+    background-color: #eaf0e4;
+}
+.featured-sec .row .col .img img{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+/* featured section */
+
+/* support section */
+.support{
+    background-color: #eff0ee;
+    padding:50px 0px;
+    margin:50px 0px;
+}
+.support .row{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+   
+}
+.support .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+.support .col img{
+    width:70px;
+}
+
+/* support section */
+
+/* deal */
+
+.deal {
+    background-color:#f3d4db ;
+
+}
+.deal .container .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:70px 0px;
+
+}
+.deal .container .row .col-1{
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    align-items: center;
+}
+.deal .container .row .col img{
+    width: 70%;
+    
+}
+/* deal */
+/* instagram photo */
+.instagram-photo{
+    margin-top:70px
+}
+.instagram-photo p{
+    margin:0 auto;
+    width: 400px;
+    display: block;
+    margin-top:15px;
+}
+.instagram-photo .row{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top:20px;
+}
+
+
+/* instagram photo */
+
+/* Latest deals */
+.latest-deals{
+    background-image: url("./assets/img/latest-deals.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top:80px;
+    
+}
+.latest-deals .row .col{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:15px;
+    padding:80px;
+}
+.latest-deals .row .col input{
+    padding:11px 15px;
+    background-color: #fff;
+    border:none;
+    border-radius: 4px;
+}
+/* Latest deals */
+
+/* footer */
+.footer{
+    margin-top: 80px;
+    background-color: #000;
+}
+.footer .row {
+    padding:80px 0px;
+}
+.footer .row .col{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:14px;
+}
+.footer .row .col p{
+    color:#ebd9d9;
+    width:px;
+}
+.footer .row .col small{
+    color:#a7a4a4;
+}
+.footer h2{
+    color:#fff;
+}
+/* footer */
