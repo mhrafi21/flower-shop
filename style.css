@@ -69,13 +69,13 @@ p {
 
 /* featured section */
 .featured-sec {
-  padding: 50px 0px;
+  margin-top: 50px;
 }
 .featured-sec p {
   text-align: center;
   width: 400px;
   margin: 0 auto;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .featured-sec .row {
   display: flex;
@@ -123,7 +123,7 @@ p {
 .support {
   background-color: #eff0ee;
   padding: 50px 0px;
-  margin: 50px 0px;
+  margin-top: 50px;
 }
 .support .row {
   display: flex;
@@ -147,12 +147,17 @@ p {
 
 .deal {
   background-color: #f3d4db;
+  margin-top: 50px;
 }
 .deal .container .row {
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 70px 0px;
+}
+.deal .container h3{
+    font-size: 25px;
+    font-weight: 600;
 }
 .deal .container .row .col-1 {
   width: 400px;
@@ -167,19 +172,19 @@ p {
 /* deal */
 /* instagram photo */
 .instagram-photo {
-  margin-top: 70px;
+ margin-top: 50px;
 }
 .instagram-photo p {
   margin: 0 auto;
   width: 400px;
   display: block;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 .instagram-photo .row {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 /* instagram photo */
@@ -190,6 +195,7 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-top: 50px;
  
 }
 .latest-deals .row .col {
@@ -202,6 +208,8 @@ p {
 }
 .latest-deals .row .col h3{
     font-size: 25px;
+    font-weight: 600;
+
 }
 .latest-deals .row .col input {
   padding: 11px 15px;
@@ -215,8 +223,9 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top:15px;
+    margin-top:25px;
     gap:5px;
+    
 }
 .flowers-gallery .btn-section span{
     padding:10px;
@@ -226,7 +235,7 @@ p {
 .flowers-gallery .row .col{
     display: flex;
     gap:10px;
-    margin-top:25px;
+    margin-top:40px;
 }
 .flowers-gallery .row .col img{
     width:25%;
