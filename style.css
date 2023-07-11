@@ -7,9 +7,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0px 60px;
+  display: block;
 }
 section {
   display: block;
@@ -194,7 +195,8 @@ p {
   align-items: center;
   justify-content: center;
   margin-top: 25px;
-  gap: 5px;
+  gap:10px
+  
 }
 .flowers-gallery .btn-section span {
   padding: 10px;
@@ -203,12 +205,13 @@ p {
 }
 .flowers-gallery .row .col {
   display: flex;
-  gap: 10px;
   margin-top: 40px;
+  gap:14px;
 }
 .flowers-gallery .row .col img {
-  width: 25%;
-  border: 1px solid #e55473;
+    width:24%;
+  /* border: 1px solid #e55473; */
+  box-shadow: 2px 2px 5px #e55473 ;
   transition: all 0.5s;
 }
 .flowers-gallery .row .col img:hover {
