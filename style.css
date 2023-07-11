@@ -9,7 +9,7 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding:0px 60px;
+  padding: 0px 60px;
 }
 section {
   display: block;
@@ -65,11 +65,10 @@ p {
   align-items: end;
   margin-top: 80px;
   width: 400px;
-
 }
 /* featured section */
 .featured-sec {
-  margin-top: 50px;
+  margin-top: 80px;
 }
 .featured-sec p {
   text-align: center;
@@ -122,7 +121,7 @@ p {
 .support {
   background-color: #eff0ee;
   padding: 50px 0px;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 .support .row {
   display: flex;
@@ -136,8 +135,8 @@ p {
   justify-content: center;
   gap: 10px;
 }
-.support .col p{
-    font-size: 18px;
+.support .col p {
+  font-size: 18px;
 }
 .support .col img {
   width: 70px;
@@ -146,7 +145,7 @@ p {
 /* deal */
 .deal {
   background-color: #f3d4db;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 .deal .container .row {
   display: flex;
@@ -154,9 +153,9 @@ p {
   justify-content: space-around;
   padding: 70px 0px;
 }
-.deal .container h3{
-    font-size: 30px;
-    font-weight: 600;
+.deal .container h3 {
+  font-size: 30px;
+  font-weight: 600;
 }
 .deal .container .row .col-1 {
   width: 400px;
@@ -171,7 +170,7 @@ p {
 /* deal */
 /* instagram photo */
 .instagram-photo {
- margin-top: 50px;
+  margin-top: 80px;
 }
 .instagram-photo p {
   margin: 0 auto;
@@ -186,13 +185,43 @@ p {
   margin-top: 40px;
 }
 /* instagram photo */
+/* flowers gallery */
+.flowers-gallery {
+  margin-top: 80px;
+}
+.flowers-gallery .btn-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  gap: 5px;
+}
+.flowers-gallery .btn-section span {
+  padding: 10px;
+  background-color: #e55473;
+  color: white;
+}
+.flowers-gallery .row .col {
+  display: flex;
+  gap: 10px;
+  margin-top: 40px;
+}
+.flowers-gallery .row .col img {
+  width: 25%;
+  border: 1px solid #e55473;
+  transition: all 0.5s;
+}
+.flowers-gallery .row .col img:hover {
+  padding: 15px;
+}
+/* flowers gallery */
 /* Latest deals */
 .latest-deals {
   background-image: url("./assets/img/latest-deals.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 .latest-deals .row .col {
   display: flex;
@@ -202,45 +231,19 @@ p {
   gap: 15px;
   padding: 80px;
 }
-.latest-deals .row .col h3{
-    font-size: 30px;
-    font-weight: 600;
+.latest-deals .row .col h3 {
+  font-size: 30px;
+  font-weight: 600;
 }
 .latest-deals .row .col input {
   padding: 14.7px 15px;
   background-color: #fff;
   border: none;
   border-radius: 4px;
-  width:500px;
+  width: 500px;
 }
 /* Latest deals */
-/* flowers gallery */
-.flowers-gallery .btn-section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top:25px;
-    gap:5px;
-}
-.flowers-gallery .btn-section span{
-    padding:10px;
-    background-color: #e55473;
-    color:white;
-}
-.flowers-gallery .row .col{
-    display: flex;
-    gap:10px;
-    margin-top:40px;
-}
-.flowers-gallery .row .col img{
-    width:25%;
-    border:1px solid #e55473;
-    transition:all 0.5s;
-}
-.flowers-gallery .row .col img:hover{
-    padding:15px;
-}
-/* flowers gallery */
+
 /* footer */
 .footer {
   margin-top: 80px;
